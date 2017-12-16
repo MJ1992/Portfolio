@@ -1,0 +1,360 @@
+body {
+    font-family: 'Lato';
+    background-color: #000;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 64px;
+}
+
+.Header {
+    margin-top: 64px;
+    padding-top: 25px;
+}
+
+.skills div {
+    padding: 0 80px;
+}
+
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+a h2 {
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: #214154;
+}
+
+.Header {
+    background-color: #FFDD5C;
+    padding: 20px;
+}
+
+.portfolio {
+    background-color: #265961;
+    padding: 20px;
+}
+
+.About {
+    background-color: #76A665;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #227066;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #265961;
+}
+
+.brand {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar-links {
+    color: #FFF;
+}
+
+
+/* mouse over link */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.skills-list li {
+    padding: 5px 0;
+}
+
+.skills-list {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-icon {
+    display: block;
+    float: right;
+}
+
+
+@media only screen and (max-width: 241px) {
+
+    .navbar {
+        padding: 35px 0;
+    }
+    .navbar-items {
+        display: none;
+    }
+    .container {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .portfolio-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+    }
+    p,
+    label {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .Header {
+
+        padding-top: 70px;
+    }
+
+    .sidebar {
+        text-align: center;
+        background-color: #FFF;
+        transform: translate(0px, -200px);
+        margin: 0;
+    }
+
+    .open {
+        z-index: 2;
+
+        transform: translate(0, 120px);
+        transition: transform 0.3s ease;
+    }
+
+
+    .Header-move {
+        padding-top: 270px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 446px) and (min-width: 242px) {
+
+    .navbar-items {
+        display: none;
+    }
+
+    .navbar {
+        padding: 35px 0;
+    }
+
+
+    .container {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .portfolio-img {
+        width: 180px;
+        height: 180px;
+        border-radius: 5px;
+    }
+    p,
+    label {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .Header {
+        padding-top: 70px;
+    }
+    .sidebar {
+        text-align: center;
+        background-color: #FFF;
+        transform: translate(0px, 0px);
+    }
+
+    .open {
+        z-index: 2;
+        position: absolute;
+        transform: translate(0, 120px);
+        transition: transform 0.3s ease;
+    }
+
+    .Header-move {
+        padding-top: 200px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 527px) and (min-width: 447px) {
+
+    .navbar-items {
+        display: none;
+    }
+    .navbar {
+        padding: 20px 0;
+    }
+    .Header {
+        padding-top: 40px;
+    }
+
+    .container {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sidebar {
+        text-align: center;
+        background-color: #FFF;
+        transform: translate(0px, 0px);
+    }
+
+    .portfolio-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    p,
+    label {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+
+
+    .open {
+        z-index: 2;
+        position: absolute;
+        transform: translate(0, 90px);
+        transition: transform 0.3s ease;
+    }
+    .Header-move {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 527px) {
+
+
+    .navbar-items {
+        display: none;
+    }
+
+    .portfolio-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    p,
+    label {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .open {
+        z-index: 2;
+        position: absolute;
+        transform: translate(0, 64px);
+        transition: transform 0.3s ease;
+    }
+    .Header-move {
+        padding-top: 100px;
+    }
+
+
+
+    @media screen and (min-width: 767px) {
+
+
+
+
+        .menu-icon {
+            display: none;
+        }
+        .navbar-items {
+            display: block;
+        }
+    }
+
+
+.sidebar {
+        text-align: center;
+        background-color: #FFF;
+}
+.sidebar a {
+        color: #000;
+        font-size: 20px;
+}
+
+}
+.sidebar a {
+        color: #000;
+        font-size: 20px;
+}
+@media screen and (max-width: 575px) {
+    .skills-list li {
+
+        text-align: center;
+        display: list-item;
+        list-style-type: disc;
+        padding: 10px 0 ;
+    }
+    ul.skills-list {
+        width: 80%;
+        padding-top: 10px;
+    }
+    .skills {
+        max-width: 40%;
+        display: inline-block;
+
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
